@@ -93,15 +93,7 @@
                   <div class="row">
                     <div class="col-sm-4"><strong class="text-uppercase">Mi edad:</strong></div>
                     <div class="col-sm-8">
-                      {% load tz %}
-                      {% now "Y" as current_year %}
-                      {% now "m" as current_month %}
-                      {% now "d" as current_day %}
-                      {% with birthdate="1991-10-08" %}
-                        {% with age=current_year|subtract:birthday|add:"-1" %}
-                          {{ age }} años
-                        {% endwith %}
-                      {% endwith %}
+                          32 años
                     </div>
                   </div>
                   </div>
